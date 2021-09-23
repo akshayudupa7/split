@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+body{
+    font-family: sans-serif;
+}
+.girl{
+    width:100%;
+    height: 100%;
+}
+
+.box1{
+    width:100%;
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(71, 69, 69));
+    color:#ffff;
+    
+  
+}
+.box2{
+    width:100%;
+    background-image: linear-gradient(to right,rgb(255, 0, 76),rgb(253, 21, 0));
+    color:#ffff;
+    
+  
+}
+.head{
+    color:rgb(18, 149, 62);
+}
+
+.word{
+   font-size: 13px;
+  margin:70px 0px;
+  
+}
+.para{
+    color:rgb(118, 121, 124);
+}
+.para1{
+    color:#ffff;
+}
+.heading{
+    color:rgb(68, 68, 70);
+}
+.heading1{
+    color:#ffff;
+}
+
+@media(max-width:768px){
+    .word{
+       margin-left: 25px;
+    }
+    
+}
